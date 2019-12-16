@@ -2,9 +2,11 @@ import React, { Component } from 'react';
 import './Store.less'
 import { NavLink } from "react-router-dom"
 class Store extends Component {
+  componentDidMount () {
+    window.scrollTo(0, 0)
+  }
   render () {
     return (
-
       <div className="store">
         <div className="store-header">
           <div className="header">

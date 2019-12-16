@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import dianpu from '../../../assets/img/dianpu.jpg'
 
 import PropTypes from 'prop-types'
-
+import { withRouter } from 'react-router-dom'
 class Dianpu extends Component {
 
   static propTypes = {
@@ -10,10 +10,9 @@ class Dianpu extends Component {
   }
   gotoPuzi (value) {
     // 跳转到对应的店铺界面
-    window.location.href = 'https://shop.m.jd.com/?venderid=1000006804'
+    this.props.history.push('/shopping/store')
   }
   render () {
-    console.log();
     const dianpudata = this.props.dianpu
     return (
       <div style={{ width: '100%', margin: '10px 5px' }}>
@@ -36,4 +35,4 @@ class Dianpu extends Component {
   }
 }
 
-export default Dianpu;
+export default withRouter(Dianpu);

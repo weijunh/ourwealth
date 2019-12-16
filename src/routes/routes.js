@@ -5,6 +5,9 @@ import Shopping from '../container/Shopping/Shopping.jsx'
 import ShopCar from '../container/ShopCar/ShopCar.jsx'
 import Finance from '../container/Finance/Finance.jsx'
 import Search from '../container/Shopping/Search/Search.jsx'
+import Store from '../container/Shopping/Store/Store.jsx'
+
+
 export default [
   {
     exact: true,
@@ -20,6 +23,11 @@ export default [
     exact: true,
     path: '/shopping/search',
     component: Search
+  },
+  {
+    exact: true,
+    path: '/shopping/store',
+    component: Store
   },
   {
     exact: true,

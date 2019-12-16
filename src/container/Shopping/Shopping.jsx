@@ -39,7 +39,7 @@ class Shopping extends Component {
 
   }
   onFocus = () => {
-    console.log('获取焦点');
+    // console.log('获取焦点');
     this.props.history.push('/shopping/search')
   }
   clear = () => {
