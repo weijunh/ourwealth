@@ -5,6 +5,11 @@ import 'lib-flexible'
 import App from './App.jsx'
 // 引入重置样式
 import './assets/css/reset.css'
-
-
-ReactDom.render(<App />, document.getElementById('root'))
+import "./utils/rem.js"
+import { Provider } from "react-redux"
+import store from "./redux/store.js"
+ReactDom.render(
+  (
+    <Provider store={store} ><App /></Provider>
+  )
+  , document.getElementById('root'))

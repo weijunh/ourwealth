@@ -1,21 +1,16 @@
 import '../container/Discover/Discover.less';
 import Discover from '../container/Discover/Discover.jsx'
 import Myself from '../container/Myself/Myself.jsx'
-import Shopping from '../container/Shopping/Shopping.jsx'
+
 import ShopCar from '../container/ShopCar/ShopCar.jsx'
 import Finance from '../container/Finance/Finance.jsx'
-
+import Login from "../container/Login/Login.jsx"
+import Register from "../container/Register/Register.jsx"
+import ClassShop from "../container/classshop/ClassShop.jsx"
+import ShoppingDelit from "../container/Shopping/shoppingDelit/Shoppingdetail.jsx"
 export default [
-  {
-    exact: true,
-    path: '/',
-    component: Shopping
-  },
-  {
-    exact: true,
-    path: '/shopping',
-    component: Shopping
-  },
+
+
   {
     exact: true,
     path: '/discover',
@@ -33,7 +28,28 @@ export default [
   },
   {
     exact: true,
+    path: '/shopcar/shoppingdelit',
+    component: ShoppingDelit
+  },
+  {
+    exact: true,
     path: '/finance',
     component: Finance
   },
+  {
+    exact: true,
+    path: '/login',
+    component: Login
+  },
+  {
+    exact: true,
+    path: '/register',
+    component: Register
+  },
+  {
+    exact: true,
+    path: '/class',
+    component: ClassShop
+
+  }
 ]

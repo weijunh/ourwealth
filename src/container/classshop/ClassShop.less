@@ -1,0 +1,76 @@
+.clearFix() {
+  &:after {
+    content: "\200B";
+    height: 0;
+    display: block;
+    clear: both;
+  }
+}
+
+
+.container-class-parcel {
+  width: 100%;
+  height: 100%;
+
+  .container-class {
+    background-color: rgb(210, 56, 22);
+    padding-top: 40px;
+    width: 100%;
+    height: 100%;
+
+    .class-header {
+      height: 40px;
+      width: 100%;
+      background: #b6200e;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      z-index: 100;
+
+      .header-left {
+        float: left;
+        width: 60px;
+
+        img {
+          width: 60px;
+          height: 40px;
+        }
+      }
+
+      .header-right {
+        float: right;
+        width: 315px;
+        overflow: hidden;
+
+        ul {
+          white-space: nowrap;
+
+          li {
+            display: inline-block;
+            height: 100%;
+            line-height: 40px;
+            text-align: center;
+            color: rgb(255, 200, 152);
+            width: 70px;
+
+            span {
+
+              &.active {
+                padding: 5px;
+                border-radius: 10px;
+                background-color: rgb(223, 69, 49);
+              }
+            }
+          }
+        }
+
+      }
+    }
+
+    .scroll-area {
+      width: 100%;
+      height: 100%;
+    }
+
+  }
+}
