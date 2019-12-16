@@ -1161,9 +1161,7 @@
       "deliveryTime": "",
       "text": "服务态度不错",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
-      "recommend": [
-        "扁豆焖面"
-      ]
+      "recommend": ["扁豆焖面"]
     },
     {
       "username": "3******b",
@@ -1242,9 +1240,7 @@
       "rateType": 0,
       "text": "孩子喜欢吃这家",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
-      "recommend": [
-        "南瓜粥"
-      ]
+      "recommend": ["南瓜粥"]
     },
     {
       "username": "3******3",
@@ -1387,5 +1383,4 @@
       "recommend": []
     }
   ]
-
 }
