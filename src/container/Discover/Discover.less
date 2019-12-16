@@ -1,0 +1,353 @@
+.outer{
+  height:100%;
+  width:375px;
+  background-color:#efefef;
+  overflow-y:scroll;// 临时使用
+  .header{
+    .header_bottom{
+      li{
+        &:nth-child(1){
+          a{
+            color:#FFD700;
+          }
+        }
+      }
+    }
+  }
+  .shops_focus{
+    margin-top:155px;
+    .focus_header{
+      top:0;
+      height:30px;
+      margin:5px 0 5px 10px;
+      display:inline-block;
+      .focus_tips{
+        font-size:16px;
+        font-weight:bold;
+        line-height:30px;
+        display:inline-block;
+        vertical-align:top; 
+      }
+      .focus_icon{
+        display:inline-block;
+        height:30px;
+        width:30px;
+        background:url("./img/refresh.png")center center no-repeat;
+        background-size:80%;
+        margin-left:5px;
+      }
+    }
+    // 横向滑动模块
+    .wrapper{
+      position:relative;
+      width:355px;
+      margin:0 auto;
+      overflow:hidden;
+      border-radius:10px;
+      background-color:#fff;
+      .content{
+        width:1050px;
+        height:300px;
+        padding-top:45px;
+        li{
+          width:165px;
+          height:240px;
+          margin:5px;
+          float:left;
+          position:relative;
+          .category_img{
+            width:165px;
+            height:165px;
+            border:1px solid #cfcfcf;
+            border-radius:10px;
+          }
+          .category_name{
+            font-size:16px;
+            overflow: hidden;
+            text-overflow:ellipsis;
+            white-space: nowrap;
+            font-weight:lighter;
+            margin:5px 0;
+          }
+          .now_price{
+            display:inline-block;
+            height:40px;
+            line-height:40px;
+            width:82px;
+            color:#DC143C;
+            font-size:20px;
+            font-weight:bold;
+          }
+          .old_price{
+            display:inline-block;
+            height:40px;
+            line-height:40px;
+            width:82px;
+            color:#ccc;
+            font-size:20px;
+            text-decoration:line-through;
+          }
+          .cheap{
+            display:inline-block;
+            height:30px;
+            width:110px;
+            text-align:center;
+            line-height:30px;
+            font-size:14px;
+            background-color:#FF6347;
+            border-radius:0 10px 10px 10px;
+            color:#fff;
+            font-weight:bold;
+            position:absolute;
+            left:0;
+            top:135px;
+          }
+        }
+      }
+      .model{
+        .recommend_shopTitle{
+          height:40px;
+          padding:5px 0;
+          position:relative;
+          border-top:1px solid #efefef;
+          img{
+            height:30px;
+              width:30px;
+              margin:0 10px;
+              border:1px solid #ccc;
+              border-radius:50%;
+          }
+          span{
+            height:30px;
+            line-height:30px;
+            display:inline-block;
+            vertical-align: top;
+            font-size:16px;
+          }
+          .love{
+            height:24px;
+            line-height:24px;
+            padding:0 5px;
+            margin-top:3px;
+            background-color:#FF1493;
+            border-radius:10px;
+            color:#fff;
+            font-size:16px;
+            font-weight:bold;
+            position:absolute;
+            right:15px;
+          }
+        }
+        .recommend_shopInfo{
+          height:180px;
+          display:flex;
+          .left{
+            width:165px;
+            position:relative;
+            img{
+              width:150px;
+              margin:10px 7px;
+              border:1px solid #ccc;
+              border-radius:10px;
+            }
+            span{
+              height:30px;
+              width:110px;
+              display:inline-block;
+              font-size:14px;
+              text-align:center;
+              background-color:#FF6347;
+              border-radius:0 10px 10px 10px;
+              color:#fff;
+              font-weight:bold;
+              line-height:30px;
+              position:absolute;
+              left:7px;
+              top:130px;
+            }
+          }
+          .right{
+            flex:2;
+            position:relative;
+            .recommend_catergoryName{
+              width:190px;
+              font-size:18px;
+              padding-top:10px;
+            }
+            .now_price{
+              display:inline-block;
+              height:40px;
+              line-height:40px;
+              font-size:20px;
+              font-weight:bold;
+              color:#DC143C;
+              position:absolute;
+              bottom:30px;
+              left:0;
+            }
+            .old_price{
+              display:inline-block;
+              height:40px;
+              line-height:40px;
+              font-size:20px;
+              color:#ccc;
+              position:absolute;
+              bottom:30px;
+              left:80px;
+              text-decoration: line-through;
+            }
+          }
+        }
+      }
+      // 因为插件原因（wrapper下为content）下调再定位上去！
+      .shops_info{
+        position:relative;
+        width:100%;
+        top:0;
+        height:40px;
+        padding:5px 0;
+        background-color:#fff;
+        position:absolute;
+        img{
+          height:30px;
+          width:30px;
+          margin:0 10px;
+          border:1px solid #ccc;
+          border-radius:50%;
+        }
+        span{
+          height:30px;
+          line-height:30px;
+          display:inline-block;
+          vertical-align: top;
+          font-size:16px;
+        }
+        .love{
+          height:24px;
+          line-height:24px;
+          padding:0 5px;
+          margin-top:3px;
+          background-color:#FF1493;
+          border-radius:10px;
+          color:#fff;
+          font-size:16px;
+          font-weight:bold;
+          position:absolute;
+          right:15px;
+        }
+      }
+    }
+  }
+  .tips{
+    p{
+      display:inline-block;
+      height:40px;
+      font-size:16px;
+      font-weight:bold;
+      line-height:40px;
+      margin-left:10px;
+    }
+  }
+  .shops_recommend{
+    width:355px;
+    background-color:#fff;
+    border-radius:10px;
+    margin:0 10px 20px 10px;
+    // 展示页面模块（不可滑动）
+    .model{
+      .recommend_shopTitle{
+        height:40px;
+        padding:5px 0;
+        position:relative;
+        border-top:1px dotted #efefef;
+        img{
+          height:30px;
+            width:30px;
+            margin:0 10px;
+            border:1px solid #ccc;
+            border-radius:50%;
+        }
+        span{
+          height:30px;
+          line-height:30px;
+          display:inline-block;
+          vertical-align: top;
+          font-size:16px;
+        }
+        .love{
+          height:24px;
+          line-height:24px;
+          padding:0 5px;
+          margin-top:3px;
+          background-color:#FF1493;
+          border-radius:10px;
+          color:#fff;
+          font-size:16px;
+          font-weight:bold;
+          position:absolute;
+          right:15px;
+        }
+      }
+      .recommend_shopInfo{
+        height:180px;
+        display:flex;
+        .left{
+          width:165px;
+          position:relative;
+          img{
+            width:150px;
+            margin:10px 7px;
+            border:1px solid #ccc;
+            border-radius:10px;
+          }
+          span{
+            height:30px;
+            width:110px;
+            display:inline-block;
+            font-size:14px;
+            text-align:center;
+            background-color:#FF6347;
+            border-radius:0 10px 10px 10px;
+            color:#fff;
+            font-weight:bold;
+            line-height:30px;
+            position:absolute;
+            left:7px;
+            top:130px;
+          }
+        }
+        .right{
+          flex:2;
+          position:relative;
+          .recommend_catergoryName{
+            width:190px;
+            font-size:18px;
+            padding-top:10px;
+          }
+          .now_price{
+            display:inline-block;
+            height:40px;
+            line-height:40px;
+            font-size:20px;
+            font-weight:bold;
+            color:#DC143C;
+            position:absolute;
+            bottom:30px;
+            left:0;
+          }
+          .old_price{
+            display:inline-block;
+            height:40px;
+            line-height:40px;
+            font-size:20px;
+            color:#ccc;
+            position:absolute;
+            bottom:30px;
+            left:80px;
+            text-decoration: line-through;
+          }
+        }
+      }
+    }
+  }
+}

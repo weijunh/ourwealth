@@ -1,0 +1,66 @@
+.header{
+  height:155px;
+  //background-color:#FF9900;
+  background:url(./img/baseColor.jpg);
+  position: fixed;
+  top: 0px;
+  right:0;/*这句很重要*/
+  width: 100%;
+  z-index:999;
+  .header_top{
+    ul{
+      display:flex;
+      padding-top:30px;
+      li{
+        flex:1;
+        height:90px;
+        .logo{
+          background:url("./img/discover_logo.png")center center no-repeat;
+          background-size:contain;
+          display:inline-block;
+          width:133px;
+          height:50px;
+        }
+        .my{
+          background:url("./img/my.png")center center no-repeat;
+          background-size:contain;
+          display:inline-block;
+          margin-left:10px;
+          width:50px;
+          height:50px;
+        }
+        .search{
+          background:url("./img/search.png")center center no-repeat;
+          background-size:contain;
+          display:inline-block;
+          margin-left:50px;
+          width:50px;
+          height:50px;
+        }
+    }
+      
+    }
+  }
+  .header_bottom{
+    ul{
+      display:flex;
+      li{
+        flex:1;
+        height:35px;
+        text-align:center;
+        line-height:35px;
+        font-size:18px;
+        font-weight:bold;
+        &:active{
+          background-color:#FFA500;
+          border-radius:10px;
+        }
+        // Link实际为a标签
+        a{
+          text-decoration: none;
+          color:#fff;
+        }
+      }    
+   }
+  }  
+}

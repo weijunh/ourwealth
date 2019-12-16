@@ -1,0 +1,94 @@
+.recommend_outer{
+  padding-top:155px;
+  width:375px;
+  height:100%;
+  overflow-y:scroll;
+  background-color:#efefef;
+  // 进入晒一晒时显示对应高亮
+  .header{
+    .header_bottom{
+      li{
+        &:nth-child(2){
+          a{
+            color:#FFD700;
+          }
+        }
+      }
+    }
+  }
+  .recommend_content{
+    width:355px;
+    height:300px;
+    margin:20px 10px;
+    background-color:#cfcfcf;
+    border-radius:10px;
+    ul{
+      position:relative;
+      li{
+        .video{
+          width:355px;
+          height:300px;
+          border-radius:10px;
+        }
+        .top{
+          position:absolute;
+          top:5px;
+          left:0;
+          .userImg{
+            display:inline-block;
+            background:url("./img/show_demo.png")center center no-repeat;
+            border-radius:50%;
+            background-size:100%;
+            height:40px;
+            width:40px;
+            margin:0 5px;
+          }
+          .userName{
+            display:inline-block;
+            height:40px;
+            width:140px;
+            vertical-align: top;
+            line-height:40px;
+            margin-right:5px;
+            color:#999;
+            font-weight:bold;
+          }
+          p{
+            display:inline-block;
+            height:30px;
+            width:150px;
+            margin-top:5px;
+            vertical-align:top;
+            line-height:30px;
+            text-align:center;
+            background-color:#FF4500;
+            border-radius:20px;
+            color:#fff;
+            .info{
+              display:inline-block;
+              height:30px;
+              width:60px;
+              background-color:#F08080;
+              color:#fff;
+              font-weight:bold;
+            }
+          }
+        }
+        .good{
+          position:Absolute;
+          bottom:15px;
+          right:20px;
+          a{
+            display:inline-block;
+            background:url("./img/good.png")center center no-repeat;
+            border:2px solid #ccc;
+            border-radius:10px;
+            background-size:100%;
+            height:40px;
+            width:40px;
+          }
+        }
+      }
+    }
+  }
+}

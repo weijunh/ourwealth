@@ -1,0 +1,87 @@
+.show_outer{
+  padding-top:155px;
+  width:375px;
+  height:100%;
+  overflow-y:scroll;
+  background-color:#efefef;
+  // 进入晒一晒时显示对应高亮
+  .header{
+    .header_bottom{
+      li{
+        &:nth-child(3){
+          a{
+            color:#FFD700;
+          }
+        }
+      }
+    }
+  }
+  .show_content{
+    padding-top:20px;
+    ul{
+      .show_info{
+        width:177px;
+        height:350px;
+        margin:0 5px 5px 5px;
+        float:left;
+        border:1px solid #ccc;
+        border-radius:10px;
+        background-color:#fff;
+        img{
+          height:250px;
+          width:177px;
+          border-radius:10px 10px 0 0;
+        }
+        p{
+          width:167px;
+          margin:5px 5px;
+          font-size:16px;
+          font-weight:bold;
+        }
+        .user_info{
+          height:40px;
+          img{
+            width:30px;
+            height:30px;
+            border-radius:50%;
+            margin:5px;
+          }
+          span{
+            display:inline-block;
+            height:40px;
+            width:90px;
+            line-height:40px;
+            vertical-align:top;
+            overflow: hidden;// 以下3个实现超出文字省略号
+            text-overflow:ellipsis;
+            white-space: nowrap;
+          }
+          a{
+            display:inline-block;
+            height:20px;
+            width:20px;
+            background:url("./img/love.png")center center no-repeat;
+            background-size:100%;
+            margin:10px 0;
+          }
+          .loveNum{
+            height:40px;
+            width:25px;
+            text-align:center;
+          }
+        }
+      }
+    }
+    .write{
+      background:url("./img/write.png")center center no-repeat;
+      background-size:120%;
+      border-radius:50%;
+      display:inline-block;
+      height:80px;
+      width:80px;
+      position:fixed;
+      bottom:120px;
+      right:15px;
+    }
+  }
+}
