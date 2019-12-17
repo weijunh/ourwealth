@@ -4,17 +4,25 @@ import './Shopping.less'
 import First from './First/First.jsx'
 import { SearchBar, WhiteSpace, Tabs } from 'antd-mobile';
 import { reqHomepage } from '../../api/index.js'
-
+import BScroll from 'better-scroll'
 
 class Shopping extends Component {
 
   constructor(props) {
     super(props);
     this.state = {
+      value: '',
       tabs: [],
       shopping_data: {}
     };
   }
+  // componentDidMount () {
+  //   this.scroll = new BScroll('.tarBar', {
+  //     scrollY: true,
+  //     click: true
+  //   })
+  //   this.scroll.refresh()
+  // }
 
   // 加载完调用函数
   componentWillMount = async () => {
@@ -22,14 +30,12 @@ class Shopping extends Component {
     // console.log(this.props.location.state);
     // 发送ajax请求服务器购物界面所有数据
     const data = await reqHomepage()
-    // console.log(data.data.data);
-    if (data.data.code === 0) {
-      // console.log('componentWillMount', data.data.data);
+    console.log(data);
+    if (data.code === 0) {
       this.setState({
-        shopping_data: data.data.data
+        shopping_data: data.data
       })
     }
-
   }
   // 下面几个预留的方法
   onChange = (value) => {
@@ -46,13 +52,12 @@ class Shopping extends Component {
     this.setState({ value: '' });
   };
   handleClick = () => {
-    this.manualFocusInst.focus();
+    // this.manualFocusInst.focus();
   }
 
 
   // tab下面展示的界面
   renderContent = tab => (<div style={{ overflow: 'hidden', }}>
-
     <div>{tab.data ? <First data={tab.data ? tab.data : null} /> : null}</div>
   </div>);
 

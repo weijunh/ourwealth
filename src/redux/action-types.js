@@ -1,0 +1,8 @@
+export const ADD_CAR = "addcar"
+export const SUBTRACT_CAR = "subtractcar"
+export const SELECT_CAR = "selectcar"
+export const ALL_CAR = "allcar"
+export const TOGETHER = "together"
+export const USER = "user"
+export const REMOVEUSER = "remove"
+export const MESSAGE = "message"

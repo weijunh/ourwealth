@@ -12,7 +12,8 @@ import data from './shopping.json'
 // Mock.mock('/goods', { code: 0, data: data.goods })
 // Mock.mock('/ratings', { code: 0, data: data.ratings })
 // Mock.mock('/info', { code: 0, data: data.info })
-
+Mock.mock("/classShop", { code: 0, data: data.classshop })
 
 Mock.mock('/homepage', { code: 0, data: data })
 // Mock.mock('/foods', { code: 0, data: data.foods })
+
