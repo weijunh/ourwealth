@@ -1,0 +1,785 @@
+{
+  "data": {
+    "topicId": "10300148",
+    "subCategory": {
+      "moreStp": "%7B%22spm%22%3A%221.500005.home_category_nava.16_3%22%2C%22rpvid%22%3A%22c476db2c-1576476381673-e9afa4e790%22%7D",
+      "categoryName": "生鲜直供",
+      "categoryId": "652",
+      "threeLevelcategoryList": [
+        {
+          "categoryImgOrigin": "https://bfs.biyao.com/group1/M00/F4/EA/rBACW13bk1SACmYHAAO--z0M2eE703_360x360.jpg",
+          "categoryImgWebp": "https://bfs.biyao.com/group1/M00/F4/EA/rBACW13bk1SACmYHAAO--z0M2eE703_360x360.webp",
+          "priorityProductId": "1303935000",
+          "categoryName": "海鲜水产",
+          "categoryImg": "https://bfs.biyao.com/group1/M00/F4/EA/rBACW13bk1SACmYHAAO--z0M2eE703_360x360.jpg",
+          "categoryId": "762",
+          "stp": "%7B%22spm%22%3A%221.500005.home_category_nava.16_0%22%2C%22rpvid%22%3A%22c476db2c-1576476381673-e9afa4e790%22%7D"
+        },
+        {
+          "categoryImgOrigin": "https://bfs.biyao.com/group1/M00/0C/5A/rBACYV3uAiWAS42hAAxLFbjcxwc427_360x360.jpg",
+          "categoryImgWebp": "https://bfs.biyao.com/group1/M00/0C/5A/rBACYV3uAiWAS42hAAxLFbjcxwc427_360x360.webp",
+          "priorityProductId": "1303985000",
+          "categoryName": "水果/蔬菜",
+          "categoryImg": "https://bfs.biyao.com/group1/M00/0C/5A/rBACYV3uAiWAS42hAAxLFbjcxwc427_360x360.jpg",
+          "categoryId": "764",
+          "stp": "%7B%22spm%22%3A%221.500005.home_category_nava.16_1%22%2C%22rpvid%22%3A%22c476db2c-1576476381673-e9afa4e790%22%7D"
+        },
+        {
+          "categoryImgOrigin": "https://bfs.biyao.com/group1/M00/0D/C5/rBACVF3wh7iAL5dFABBPekKwGTY536_360x360.jpg",
+          "categoryImgWebp": "https://bfs.biyao.com/group1/M00/0D/C5/rBACVF3wh7iAL5dFABBPekKwGTY536_360x360.webp",
+          "priorityProductId": "1303615001",
+          "categoryName": "农特干货",
+          "categoryImg": "https://bfs.biyao.com/group1/M00/0D/C5/rBACVF3wh7iAL5dFABBPekKwGTY536_360x360.jpg",
+          "categoryId": "766",
+          "stp": "%7B%22spm%22%3A%221.500005.home_category_nava.16_2%22%2C%22rpvid%22%3A%22c476db2c-1576476381673-e9afa4e790%22%7D"
+        }
+      ]
+    },
+    "pageIndex": 1,
+    "blockList": [
+      {
+        "feed": true,
+        "dynamic": true,
+        "block": [
+          {
+            "templateType": 14,
+            "data": [
+              {
+                "isShowIcon": "0",
+                "image": "https://bfs.biyao.com/group1/M00/F2/A0/rBACW13aOO6AM5buAA1Qbw2tWwk499_360x360.jpg",
+                "routerType": 7,
+                "routerParams": {
+                  "suId": "1303735003000100001",
+                  "stp": "%7B%22spm%22%3A%221.500005.home_category_products.16%22%2C%22rpvid%22%3A%22c476db2c-1576476381673-e9afa4e790%22%7D"
+                },
+                "supportCarve": 0,
+                "goodCommentAll": 139,
+                "labels": [
+                  {
+                    "color": "#AB7FD1",
+                    "roundColor": "#AB7FD1",
+                    "textColor": "#FFFFFF",
+                    "content": "精选"
+                  },
+                  {
+                    "color": "#FFFFFF",
+                    "roundColor": "#FB4C81",
+                    "textColor": "#FB4C81",
+                    "content": "一起拼"
+                  }
+                ],
+                "priceStr": "38",
+                "priceCent": "3800",
+                "rasterType": 0,
+                "imageOrigin": "https://bfs.biyao.com/group1/M00/F2/A0/rBACW13aOO6AM5buAA1Qbw2tWwk499_360x360.jpg",
+                "mainTitle": "烟薯25号地瓜2.5kg装",
+                "thirdContent": "139条好评",
+                "subtitle": "烟薯25号产地直供|绿色食品，无化肥，自然熟，纯正烟薯25号，非转基因，非改良品种",
+                "id": "1303735003",
+                "imageWebp": "https://bfs.biyao.com/group1/M00/F2/A0/rBACW13aOO6AM5buAA1Qbw2tWwk499_360x360.webp",
+                "goodComment": 132
+              },
+              {
+                "isShowIcon": "0",
+                "image": "https://bfs.biyao.com/group1/M00/0C/5A/rBACYV3uAiWAS42hAAxLFbjcxwc427_360x360.jpg",
+                "routerType": 7,
+                "routerParams": {
+                  "suId": "1303985000010000001",
+                  "stp": "%7B%22spm%22%3A%221.500005.home_category_products.16%22%2C%22rpvid%22%3A%22c476db2c-1576476381673-e9afa4e790%22%7D"
+                },
+                "supportCarve": 0,
+                "goodCommentAll": 1,
+                "labels": [
+                  {
+                    "color": "#FFFFFF",
+                    "roundColor": "#FB4C81",
+                    "textColor": "#FB4C81",
+                    "content": "一起拼"
+                  }
+                ],
+                "priceStr": "128",
+                "priceCent": "12800",
+                "rasterType": 0,
+                "imageOrigin": "https://bfs.biyao.com/group1/M00/0C/5A/rBACYV3uAiWAS42hAAxLFbjcxwc427_360x360.jpg",
+                "mainTitle": "颗颗甄选，诱惑味蕾",
+                "thirdContent": "1条好评",
+                "subtitle": "莓溪草莓产地直供|野蜂授粉，自然成熟，不使用任何化学性农药/肥料，顺丰包邮",
+                "id": "1303985000",
+                "imageWebp": "https://bfs.biyao.com/group1/M00/0C/5A/rBACYV3uAiWAS42hAAxLFbjcxwc427_360x360.webp",
+                "goodComment": 1
+              }
+            ],
+            "templateName": "doubleRowList",
+            "dataSize": null,
+            "dynamic": true,
+            "tid": "moses:tid_1",
+            "dataSourceType": "recommend"
+          },
+          {
+            "templateType": 14,
+            "data": [
+              {
+                "isShowIcon": "0",
+                "image": "https://bfs.biyao.com/group1/M00/CA/E0/rBACW126loCAHWuoAAbUkLYSv64350_360x360.jpg",
+                "routerType": 7,
+                "routerParams": {
+                  "suId": "1303735001000100001",
+                  "stp": "%7B%22spm%22%3A%221.500005.home_category_products.16%22%2C%22rpvid%22%3A%22c476db2c-1576476381673-e9afa4e790%22%7D"
+                },
+                "supportCarve": 0,
+                "goodCommentAll": 402,
+                "labels": [
+                  {
+                    "color": "#FFFFFF",
+                    "roundColor": "#FB4C81",
+                    "textColor": "#FB4C81",
+                    "content": "一起拼"
+                  }
+                ],
+                "priceStr": "65",
+                "priceCent": "6500",
+                "rasterType": 0,
+                "imageOrigin": "https://bfs.biyao.com/group1/M00/CA/E0/rBACW126loCAHWuoAAbUkLYSv64350_360x360.jpg",
+                "mainTitle": "秋月梨2.5kg",
+                "thirdContent": "402条好评",
+                "subtitle": "秋月梨产地直供|新鲜水果烟台特产秋月梨",
+                "id": "1303735001",
+                "imageWebp": "https://bfs.biyao.com/group1/M00/CA/E0/rBACW126loCAHWuoAAbUkLYSv64350_360x360.webp",
+                "goodComment": 99
+              },
+              {
+                "isShowIcon": "0",
+                "image": "https://bfs.biyao.com/group1/M00/CA/E2/rBACW126l-2AfMAbAAsN854oHFk883_360x360.jpg",
+                "routerType": 7,
+                "routerParams": {
+                  "suId": "1303735002000100001",
+                  "stp": "%7B%22spm%22%3A%221.500005.home_category_products.16%22%2C%22rpvid%22%3A%22c476db2c-1576476381673-e9afa4e790%22%7D"
+                },
+                "supportCarve": 0,
+                "goodCommentAll": 317,
+                "labels": [
+                  {
+                    "color": "#FFFFFF",
+                    "roundColor": "#FB4C81",
+                    "textColor": "#FB4C81",
+                    "content": "一起拼"
+                  }
+                ],
+                "priceStr": "56",
+                "priceCent": "5600",
+                "rasterType": 0,
+                "imageOrigin": "https://bfs.biyao.com/group1/M00/CA/E2/rBACW126l-2AfMAbAAsN854oHFk883_360x360.jpg",
+                "mainTitle": "莱阳梨2.5kg",
+                "thirdContent": "317条好评",
+                "subtitle": "莱阳梨产地直供|果肉晶莹如玉，口感清脆香甜，有独特风味",
+                "id": "1303735002",
+                "imageWebp": "https://bfs.biyao.com/group1/M00/CA/E2/rBACW126l-2AfMAbAAsN854oHFk883_360x360.webp",
+                "goodComment": 99
+              }
+            ],
+            "templateName": "doubleRowList",
+            "dataSize": null,
+            "dynamic": true,
+            "tid": "moses:tid_1",
+            "dataSourceType": "recommend"
+          },
+          {
+            "templateType": 14,
+            "data": [
+              {
+                "isShowIcon": "0",
+                "image": "https://bfs.biyao.com/group1/M00/D4/34/rBACW13Cr3eABEWJAA2XHjmNFBE311_360x360.jpg",
+                "routerType": 7,
+                "routerParams": {
+                  "suId": "1303815000010000001",
+                  "stp": "%7B%22spm%22%3A%221.500005.home_category_products.16%22%2C%22rpvid%22%3A%22c476db2c-1576476381673-e9afa4e790%22%7D"
+                },
+                "supportCarve": 0,
+                "goodCommentAll": 290,
+                "labels": [
+                  {
+                    "color": "#AB7FD1",
+                    "roundColor": "#AB7FD1",
+                    "textColor": "#FFFFFF",
+                    "content": "精选"
+                  },
+                  {
+                    "color": "#FFFFFF",
+                    "roundColor": "#FB4C81",
+                    "textColor": "#FB4C81",
+                    "content": "一起拼"
+                  }
+                ],
+                "priceStr": "46",
+                "priceCent": "4600",
+                "rasterType": 0,
+                "imageOrigin": "https://bfs.biyao.com/group1/M00/D4/34/rBACW13Cr3eABEWJAA2XHjmNFBE311_360x360.jpg",
+                "mainTitle": "砀山酥梨（7-9）",
+                "thirdContent": "290条好评",
+                "subtitle": "砀山梨产地直供|皮薄肉脆，饱满多汁，甘甜可口，百年梨树结果",
+                "id": "1303815000",
+                "imageWebp": "https://bfs.biyao.com/group1/M00/D4/34/rBACW13Cr3eABEWJAA2XHjmNFBE311_360x360.webp",
+                "goodComment": 96
+              },
+              {
+                "isShowIcon": "0",
+                "image": "https://bfs.biyao.com/group1/M00/EE/00/rBACYV3XgpSAOR5JAByRJ18Ggwc053_360x360.jpg",
+                "routerType": 7,
+                "routerParams": {
+                  "suId": "1303815001000100001",
+                  "stp": "%7B%22spm%22%3A%221.500005.home_category_products.16%22%2C%22rpvid%22%3A%22c476db2c-1576476381673-e9afa4e790%22%7D"
+                },
+                "supportCarve": 0,
+                "goodCommentAll": 13,
+                "labels": [
+                  {
+                    "color": "#FFFFFF",
+                    "roundColor": "#FB4C81",
+                    "textColor": "#FB4C81",
+                    "content": "一起拼"
+                  }
+                ],
+                "priceStr": "56",
+                "priceCent": "5600",
+                "rasterType": 0,
+                "imageOrigin": "https://bfs.biyao.com/group1/M00/EE/00/rBACYV3XgpSAOR5JAByRJ18Ggwc053_360x360.jpg",
+                "mainTitle": "砀山皇冠梨5斤",
+                "thirdContent": "13条好评",
+                "subtitle": "砀山梨产地直供|皮薄肉脆，饱满多汁，甘甜可口，百年梨树结果",
+                "id": "1303815001",
+                "imageWebp": "https://bfs.biyao.com/group1/M00/EE/00/rBACYV3XgpSAOR5JAByRJ18Ggwc053_360x360.webp",
+                "goodComment": 13
+              }
+            ],
+            "templateName": "doubleRowList",
+            "dataSize": null,
+            "dynamic": true,
+            "tid": "moses:tid_1",
+            "dataSourceType": "recommend"
+          },
+          {
+            "templateType": 14,
+            "data": [
+              {
+                "isShowIcon": "0",
+                "image": "https://bfs.biyao.com/group1/M00/F3/53/rBACYV3bL8GAcNTEAAhIijOU5Do538_360x360.jpg",
+                "routerType": 7,
+                "routerParams": {
+                  "suId": "1303915002010000001",
+                  "stp": "%7B%22spm%22%3A%221.500005.home_category_products.16%22%2C%22rpvid%22%3A%22c476db2c-1576476381673-e9afa4e790%22%7D"
+                },
+                "supportCarve": 0,
+                "goodCommentAll": 42,
+                "labels": [
+                  {
+                    "color": "#FFFFFF",
+                    "roundColor": "#FB4C81",
+                    "textColor": "#FB4C81",
+                    "content": "一起拼"
+                  }
+                ],
+                "priceStr": "99",
+                "priceCent": "9900",
+                "rasterType": 0,
+                "imageOrigin": "https://bfs.biyao.com/group1/M00/F3/53/rBACYV3bL8GAcNTEAAhIijOU5Do538_360x360.jpg",
+                "mainTitle": "蒲城酥梨5kg/箱",
+                "thirdContent": "42条好评",
+                "subtitle": "蒲城酥梨产地直供|大如拳、甜如蜜、脆如菱，熟食俱佳，老少皆宜",
+                "id": "1303915002",
+                "imageWebp": "https://bfs.biyao.com/group1/M00/F3/53/rBACYV3bL8GAcNTEAAhIijOU5Do538_360x360.webp",
+                "goodComment": 24
+              },
+              {
+                "isShowIcon": "0",
+                "image": "https://bfs.biyao.com/group1/M00/CA/4D/rBACYV26lOyAB4K0AAaIsRpc87Q521_360x360.jpg",
+                "routerType": 7,
+                "routerParams": {
+                  "suId": "1303735000000100001",
+                  "stp": "%7B%22spm%22%3A%221.500005.home_category_products.16%22%2C%22rpvid%22%3A%22c476db2c-1576476381673-e9afa4e790%22%7D"
+                },
+                "supportCarve": 0,
+                "goodCommentAll": 661,
+                "labels": [
+                  {
+                    "color": "#AB7FD1",
+                    "roundColor": "#AB7FD1",
+                    "textColor": "#FFFFFF",
+                    "content": "精选"
+                  },
+                  {
+                    "color": "#FFFFFF",
+                    "roundColor": "#FB4C81",
+                    "textColor": "#FB4C81",
+                    "content": "一起拼"
+                  }
+                ],
+                "priceStr": "56",
+                "priceCent": "5600",
+                "rasterType": 0,
+                "imageOrigin": "https://bfs.biyao.com/group1/M00/CA/4D/rBACYV26lOyAB4K0AAaIsRpc87Q521_360x360.jpg",
+                "mainTitle": "烟台红富士苹果2.5kg",
+                "thirdContent": "661条好评",
+                "subtitle": "烟台苹果产地直供|现摘现发，糖分更高，口感更细腻香甜 、无农药，健康有营养、绿色产品 。",
+                "id": "1303735000",
+                "imageWebp": "https://bfs.biyao.com/group1/M00/CA/4D/rBACYV26lOyAB4K0AAaIsRpc87Q521_360x360.webp",
+                "goodComment": 213
+              }
+            ],
+            "templateName": "doubleRowList",
+            "dataSize": null,
+            "dynamic": true,
+            "tid": "moses:tid_1",
+            "dataSourceType": "recommend"
+          },
+          {
+            "templateType": 14,
+            "data": [
+              {
+                "isShowIcon": "0",
+                "image": "https://bfs.biyao.com/group1/M00/06/E1/rBACW13owDOAZW18ABkjD0Az5yE469_360x360.jpg",
+                "routerType": 7,
+                "routerParams": {
+                  "suId": "1303815003000100001",
+                  "stp": "%7B%22spm%22%3A%221.500005.home_category_products.16%22%2C%22rpvid%22%3A%22c476db2c-1576476381673-e9afa4e790%22%7D"
+                },
+                "supportCarve": 0,
+                "goodCommentAll": 3,
+                "labels": [
+                  {
+                    "color": "#FFFFFF",
+                    "roundColor": "#FB4C81",
+                    "textColor": "#FB4C81",
+                    "content": "一起拼"
+                  }
+                ],
+                "priceStr": "59",
+                "priceCent": "5900",
+                "rasterType": 0,
+                "imageOrigin": "https://bfs.biyao.com/group1/M00/06/E1/rBACW13owDOAZW18ABkjD0Az5yE469_360x360.jpg",
+                "mainTitle": "金元帅苹果",
+                "thirdContent": "3条好评",
+                "subtitle": "砀山金元帅苹果制造商直供|肉绵皮薄，甘甜爽口",
+                "id": "1303815003",
+                "imageWebp": "https://bfs.biyao.com/group1/M00/06/E1/rBACW13owDOAZW18ABkjD0Az5yE469_360x360.webp",
+                "goodComment": 3
+              },
+              {
+                "isShowIcon": "0",
+                "image": "https://bfs.biyao.com/group1/M00/F0/08/rBACYV3Yw-iAQytKAAj38GLe-Ww221_360x360.jpg",
+                "routerType": 7,
+                "routerParams": {
+                  "suId": "1303915003010000001",
+                  "stp": "%7B%22spm%22%3A%221.500005.home_category_products.16%22%2C%22rpvid%22%3A%22c476db2c-1576476381673-e9afa4e790%22%7D"
+                },
+                "supportCarve": 0,
+                "goodCommentAll": 109,
+                "labels": [
+                  {
+                    "color": "#FFFFFF",
+                    "roundColor": "#FB4C81",
+                    "textColor": "#FB4C81",
+                    "content": "一起拼"
+                  }
+                ],
+                "priceStr": "109",
+                "priceCent": "10900",
+                "rasterType": 0,
+                "imageOrigin": "https://bfs.biyao.com/group1/M00/F0/08/rBACYV3Yw-iAQytKAAj38GLe-Ww221_360x360.jpg",
+                "mainTitle": "洛川优质红富士苹果5kg/箱",
+                "thirdContent": "109条好评",
+                "subtitle": "洛川苹果产地直供|果实着色鲜艳，含糖量高，香味浓厚，肉厚皮薄，品质优良",
+                "id": "1303915003",
+                "imageWebp": "https://bfs.biyao.com/group1/M00/F0/08/rBACYV3Yw-iAQytKAAj38GLe-Ww221_360x360.webp",
+                "goodComment": 48
+              }
+            ],
+            "templateName": "doubleRowList",
+            "dataSize": null,
+            "dynamic": true,
+            "tid": "moses:tid_1",
+            "dataSourceType": "recommend"
+          },
+          {
+            "templateType": 14,
+            "data": [
+              {
+                "isShowIcon": "0",
+                "image": "https://bfs.biyao.com/group1/M00/F3/DC/rBACW13bMYyASzrjABJpBX2pKhQ627_360x360.jpg",
+                "routerType": 7,
+                "routerParams": {
+                  "suId": "1303915004010000001",
+                  "stp": "%7B%22spm%22%3A%221.500005.home_category_products.16%22%2C%22rpvid%22%3A%22c476db2c-1576476381673-e9afa4e790%22%7D"
+                },
+                "supportCarve": 0,
+                "goodCommentAll": 28,
+                "labels": [
+                  {
+                    "color": "#FFFFFF",
+                    "roundColor": "#FB4C81",
+                    "textColor": "#FB4C81",
+                    "content": "一起拼"
+                  }
+                ],
+                "priceStr": "139",
+                "priceCent": "13900",
+                "rasterType": 0,
+                "imageOrigin": "https://bfs.biyao.com/group1/M00/F3/DC/rBACW13bMYyASzrjABJpBX2pKhQ627_360x360.jpg",
+                "mainTitle": "洛川精品红富士苹果5kg/箱",
+                "thirdContent": "28条好评",
+                "subtitle": "洛川苹果产地直供|着色鲜艳，含糖量高，香味浓厚，肉厚皮薄，品质优良",
+                "id": "1303915004",
+                "imageWebp": "https://bfs.biyao.com/group1/M00/F3/DC/rBACW13bMYyASzrjABJpBX2pKhQ627_360x360.webp",
+                "goodComment": 16
+              },
+              {
+                "isShowIcon": "0",
+                "image": "https://bfs.biyao.com/group1/M00/04/91/rBACVF3ohXeAFo6AAAikoV33d2c885_360x360.jpg",
+                "routerType": 7,
+                "routerParams": {
+                  "suId": "1304225000010000001",
+                  "stp": "%7B%22spm%22%3A%221.500005.home_category_products.16%22%2C%22rpvid%22%3A%22c476db2c-1576476381673-e9afa4e790%22%7D"
+                },
+                "supportCarve": 0,
+                "goodCommentAll": 24,
+                "labels": [
+                  {
+                    "color": "#AB7FD1",
+                    "roundColor": "#AB7FD1",
+                    "textColor": "#FFFFFF",
+                    "content": "精选"
+                  },
+                  {
+                    "color": "#FFFFFF",
+                    "roundColor": "#FB4C81",
+                    "textColor": "#FB4C81",
+                    "content": "一起拼"
+                  }
+                ],
+                "priceStr": "65",
+                "priceCent": "6500",
+                "rasterType": 0,
+                "imageOrigin": "https://bfs.biyao.com/group1/M00/04/91/rBACVF3ohXeAFo6AAAikoV33d2c885_360x360.jpg",
+                "mainTitle": "维纳斯黄金苹果",
+                "thirdContent": "24条好评",
+                "subtitle": "维纳斯黄金苹果产地直供|香脆可口，甘甜多汁，果肉细腻，皮薄肉厚",
+                "id": "1304225000",
+                "imageWebp": "https://bfs.biyao.com/group1/M00/04/91/rBACVF3ohXeAFo6AAAikoV33d2c885_360x360.webp",
+                "goodComment": 24
+              }
+            ],
+            "templateName": "doubleRowList",
+            "dataSize": null,
+            "dynamic": true,
+            "tid": "moses:tid_1",
+            "dataSourceType": "recommend"
+          },
+          {
+            "templateType": 14,
+            "data": [
+              {
+                "isShowIcon": "0",
+                "image": "https://bfs.biyao.com/group1/M00/06/60/rBACYV3owZiAE3a1AB7S8I4A-xw958_360x360.jpg",
+                "routerType": 7,
+                "routerParams": {
+                  "suId": "1303815004000100001",
+                  "stp": "%7B%22spm%22%3A%221.500005.home_category_products.16%22%2C%22rpvid%22%3A%22c476db2c-1576476381673-e9afa4e790%22%7D"
+                },
+                "supportCarve": 0,
+                "goodCommentAll": 10,
+                "labels": [
+                  {
+                    "color": "#AB7FD1",
+                    "roundColor": "#AB7FD1",
+                    "textColor": "#FFFFFF",
+                    "content": "精选"
+                  },
+                  {
+                    "color": "#FFFFFF",
+                    "roundColor": "#FB4C81",
+                    "textColor": "#FB4C81",
+                    "content": "一起拼"
+                  }
+                ],
+                "priceStr": "69",
+                "priceCent": "6900",
+                "rasterType": 0,
+                "imageOrigin": "https://bfs.biyao.com/group1/M00/06/60/rBACYV3owZiAE3a1AB7S8I4A-xw958_360x360.jpg",
+                "mainTitle": "塔山软籽石榴",
+                "thirdContent": "10条好评",
+                "subtitle": "塔山软籽石榴制造商直供|软籽可食，品质大果，核软籽肥",
+                "id": "1303815004",
+                "imageWebp": "https://bfs.biyao.com/group1/M00/06/60/rBACYV3owZiAE3a1AB7S8I4A-xw958_360x360.webp",
+                "goodComment": 10
+              },
+              {
+                "isShowIcon": "0",
+                "image": "https://bfs.biyao.com/group1/M00/FA/60/rBACYV3fmjCAYjSnAAIUZqDn2qo887_360x360.jpg",
+                "routerType": 7,
+                "routerParams": {
+                  "suId": "1303945002010000001",
+                  "stp": "%7B%22spm%22%3A%221.500005.home_category_products.16%22%2C%22rpvid%22%3A%22c476db2c-1576476381673-e9afa4e790%22%7D"
+                },
+                "supportCarve": 0,
+                "goodCommentAll": 72,
+                "labels": [
+                  {
+                    "color": "#AB7FD1",
+                    "roundColor": "#AB7FD1",
+                    "textColor": "#FFFFFF",
+                    "content": "精选"
+                  },
+                  {
+                    "color": "#FFFFFF",
+                    "roundColor": "#FB4C81",
+                    "textColor": "#FB4C81",
+                    "content": "一起拼"
+                  }
+                ],
+                "priceStr": "89",
+                "priceCent": "8900",
+                "rasterType": 0,
+                "imageOrigin": "https://bfs.biyao.com/group1/M00/FA/60/rBACYV3fmjCAYjSnAAIUZqDn2qo887_360x360.jpg",
+                "mainTitle": "赣南脐橙10斤单果75-80mm",
+                "thirdContent": "72条好评",
+                "subtitle": "赣南脐橙产地直供|赣南脐橙果大形正，可食率达85%，肉质脆嫩、化渣，含果汁55%以上",
+                "id": "1303945002",
+                "imageWebp": "https://bfs.biyao.com/group1/M00/FA/60/rBACYV3fmjCAYjSnAAIUZqDn2qo887_360x360.webp",
+                "goodComment": 72
+              }
+            ],
+            "templateName": "doubleRowList",
+            "dataSize": null,
+            "dynamic": true,
+            "tid": "moses:tid_1",
+            "dataSourceType": "recommend"
+          },
+          {
+            "templateType": 14,
+            "data": [
+              {
+                "isShowIcon": "0",
+                "image": "https://bfs.biyao.com/group1/M00/FA/5F/rBACYV3fmYmAYVF2AAKlqBHw-iY967_360x360.jpg",
+                "routerType": 7,
+                "routerParams": {
+                  "suId": "1303945003010000001",
+                  "stp": "%7B%22spm%22%3A%221.500005.home_category_products.16%22%2C%22rpvid%22%3A%22c476db2c-1576476381673-e9afa4e790%22%7D"
+                },
+                "supportCarve": 0,
+                "goodCommentAll": 24,
+                "labels": [
+                  {
+                    "color": "#FFFFFF",
+                    "roundColor": "#FB4C81",
+                    "textColor": "#FB4C81",
+                    "content": "一起拼"
+                  }
+                ],
+                "priceStr": "60",
+                "priceCent": "6000",
+                "rasterType": 0,
+                "imageOrigin": "https://bfs.biyao.com/group1/M00/FA/5F/rBACYV3fmYmAYVF2AAKlqBHw-iY967_360x360.jpg",
+                "mainTitle": "赣南脐橙5斤，单果70-75mm",
+                "thirdContent": "24条好评",
+                "subtitle": "赣南脐橙产地直供|赣南脐橙果大形正，可食率达85%，肉质脆嫩、化渣，含果汁55%以上",
+                "id": "1303945003",
+                "imageWebp": "https://bfs.biyao.com/group1/M00/FA/5F/rBACYV3fmYmAYVF2AAKlqBHw-iY967_360x360.webp",
+                "goodComment": 24
+              },
+              {
+                "isShowIcon": "0",
+                "image": "https://bfs.biyao.com/group1/M00/F8/F6/rBACVF3fmIqAM66vAAKz-l_CaXg456_360x360.jpg",
+                "routerType": 7,
+                "routerParams": {
+                  "suId": "1303945004010000001",
+                  "stp": "%7B%22spm%22%3A%221.500005.home_category_products.16%22%2C%22rpvid%22%3A%22c476db2c-1576476381673-e9afa4e790%22%7D"
+                },
+                "supportCarve": 0,
+                "goodCommentAll": 0,
+                "labels": [
+                  {
+                    "color": "#FFFFFF",
+                    "roundColor": "#FB4C81",
+                    "textColor": "#FB4C81",
+                    "content": "一起拼"
+                  }
+                ],
+                "priceStr": "73",
+                "priceCent": "7300",
+                "rasterType": 0,
+                "imageOrigin": "https://bfs.biyao.com/group1/M00/F8/F6/rBACVF3fmIqAM66vAAKz-l_CaXg456_360x360.jpg",
+                "mainTitle": "南丰蜜桔10斤，单果22-36g",
+                "thirdContent": "",
+                "subtitle": "南丰蜜桔产地直供|南丰蜜桔是江西省南丰县的传统地方特色产品，迄今已有1300多年的栽培历史",
+                "id": "1303945004",
+                "imageWebp": "https://bfs.biyao.com/group1/M00/F8/F6/rBACVF3fmIqAM66vAAKz-l_CaXg456_360x360.webp",
+                "goodComment": 0
+              }
+            ],
+            "templateName": "doubleRowList",
+            "dataSize": null,
+            "dynamic": true,
+            "tid": "moses:tid_1",
+            "dataSourceType": "recommend"
+          },
+          {
+            "templateType": 14,
+            "data": [
+              {
+                "isShowIcon": "0",
+                "image": "https://bfs.biyao.com/group1/M00/F8/F8/rBACVF3fmeqAPV6ZAAKz-l_CaXg907_360x360.jpg",
+                "routerType": 7,
+                "routerParams": {
+                  "suId": "1303945006010000001",
+                  "stp": "%7B%22spm%22%3A%221.500005.home_category_products.16%22%2C%22rpvid%22%3A%22c476db2c-1576476381673-e9afa4e790%22%7D"
+                },
+                "supportCarve": 0,
+                "goodCommentAll": 26,
+                "labels": [
+                  {
+                    "color": "#FFFFFF",
+                    "roundColor": "#FB4C81",
+                    "textColor": "#FB4C81",
+                    "content": "一起拼"
+                  }
+                ],
+                "priceStr": "43",
+                "priceCent": "4300",
+                "rasterType": 0,
+                "imageOrigin": "https://bfs.biyao.com/group1/M00/F8/F8/rBACVF3fmeqAPV6ZAAKz-l_CaXg907_360x360.jpg",
+                "mainTitle": "南丰蜜桔5斤，单果22-36g",
+                "thirdContent": "26条好评",
+                "subtitle": "南丰蜜桔产地直供|南丰蜜桔是江西省南丰县的传统地方特色产品，迄今已有1300多年的栽培历史",
+                "id": "1303945006",
+                "imageWebp": "https://bfs.biyao.com/group1/M00/F8/F8/rBACVF3fmeqAPV6ZAAKz-l_CaXg907_360x360.webp",
+                "goodComment": 26
+              },
+              {
+                "isShowIcon": "0",
+                "image": "https://bfs.biyao.com/group1/M00/08/34/rBACW13p6U6ADuxjAAT9P7aROXI403_360x360.jpg",
+                "routerType": 7,
+                "routerParams": {
+                  "suId": "1303915007010000001",
+                  "stp": "%7B%22spm%22%3A%221.500005.home_category_products.16%22%2C%22rpvid%22%3A%22c476db2c-1576476381673-e9afa4e790%22%7D"
+                },
+                "supportCarve": 0,
+                "goodCommentAll": 13,
+                "labels": [
+                  {
+                    "color": "#FFFFFF",
+                    "roundColor": "#FB4C81",
+                    "textColor": "#FB4C81",
+                    "content": "一起拼"
+                  }
+                ],
+                "priceStr": "79",
+                "priceCent": "7900",
+                "rasterType": 0,
+                "imageOrigin": "https://bfs.biyao.com/group1/M00/08/34/rBACW13p6U6ADuxjAAT9P7aROXI403_360x360.jpg",
+                "mainTitle": "大荔乳瓜2.5kg/箱",
+                "thirdContent": "13条好评",
+                "subtitle": "大荔乳瓜产地直供|口感清脆、味道清甜、营养健康，现摘",
+                "id": "1303915007",
+                "imageWebp": "https://bfs.biyao.com/group1/M00/08/34/rBACW13p6U6ADuxjAAT9P7aROXI403_360x360.webp",
+                "goodComment": 13
+              }
+            ],
+            "templateName": "doubleRowList",
+            "dataSize": null,
+            "dynamic": true,
+            "tid": "moses:tid_1",
+            "dataSourceType": "recommend"
+          },
+          {
+            "templateType": 14,
+            "data": [
+              {
+                "isShowIcon": "0",
+                "image": "https://bfs.biyao.com/group1/M00/0D/EB/rBACW13vFImAGklPAAe-4eUx8-g095_360x360.jpg",
+                "routerType": 7,
+                "routerParams": {
+                  "suId": "1303915008010000001",
+                  "stp": "%7B%22spm%22%3A%221.500005.home_category_products.16%22%2C%22rpvid%22%3A%22c476db2c-1576476381673-e9afa4e790%22%7D"
+                },
+                "supportCarve": 0,
+                "goodCommentAll": 0,
+                "labels": [
+                  {
+                    "color": "#AB7FD1",
+                    "roundColor": "#AB7FD1",
+                    "textColor": "#FFFFFF",
+                    "content": "精选"
+                  },
+                  {
+                    "color": "#FFFFFF",
+                    "roundColor": "#FB4C81",
+                    "textColor": "#FB4C81",
+                    "content": "一起拼"
+                  }
+                ],
+                "priceStr": "69",
+                "priceCent": "6900",
+                "rasterType": 0,
+                "imageOrigin": "https://bfs.biyao.com/group1/M00/0D/EB/rBACW13vFImAGklPAAe-4eUx8-g095_360x360.jpg",
+                "mainTitle": "大荔沙地水果胡萝卜5kg/箱",
+                "thirdContent": "",
+                "subtitle": "大荔沙地胡萝卜产地直供|皮薄甜脆、颜色鲜红，质细味甜，脆嫩多汁，补充维生素",
+                "id": "1303915008",
+                "imageWebp": "https://bfs.biyao.com/group1/M00/0D/EB/rBACW13vFImAGklPAAe-4eUx8-g095_360x360.webp",
+                "goodComment": 0
+              },
+              {
+                "isShowIcon": "0",
+                "image": "https://bfs.biyao.com/group1/M00/E9/3C/rBACYV3U2NCAbP-cABdiLA9kee0073_360x360.jpg",
+                "routerType": 7,
+                "routerParams": {
+                  "suId": "1303895000010000001",
+                  "stp": "%7B%22spm%22%3A%221.500005.home_category_products.16%22%2C%22rpvid%22%3A%22c476db2c-1576476381673-e9afa4e790%22%7D"
+                },
+                "supportCarve": 0,
+                "goodCommentAll": 218,
+                "labels": [
+                  {
+                    "color": "#AB7FD1",
+                    "roundColor": "#AB7FD1",
+                    "textColor": "#FFFFFF",
+                    "content": "精选"
+                  },
+                  {
+                    "color": "#FFFFFF",
+                    "roundColor": "#FB4C81",
+                    "textColor": "#FB4C81",
+                    "content": "一起拼"
+                  }
+                ],
+                "priceStr": "89",
+                "priceCent": "8900",
+                "rasterType": 0,
+                "imageOrigin": "https://bfs.biyao.com/group1/M00/E9/3C/rBACYV3U2NCAbP-cABdiLA9kee0073_360x360.jpg",
+                "mainTitle": "渤海湾优质黄花鱼500g*3袋",
+                "thirdContent": "218条好评",
+                "subtitle": "渤海湾直供|精选渤海湾小黄花鱼，无冰衣覆盖，肉质鲜嫩，嫩滑少刺",
+                "id": "1303895000",
+                "imageWebp": "https://bfs.biyao.com/group1/M00/E9/3C/rBACYV3U2NCAbP-cABdiLA9kee0073_360x360.webp",
+                "goodComment": 75
+              }
+            ],
+            "templateName": "doubleRowList",
+            "dataSize": null,
+            "dynamic": true,
+            "tid": "moses:tid_1",
+            "dataSourceType": "recommend"
+          }
+        ],
+        "templateInfoNums": null,
+        "bid": "moses:bid_1",
+        "exp": false,
+        "expId": null
+      }
+    ],
+    "pid": "moses:pid_1",
+    "pageId": "moses:pid_1",
+    "pageName": ""
+  },
+  "success": 1,
+  "  error": null
+}

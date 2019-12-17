@@ -55,7 +55,7 @@ class Login extends Component {
   render () {
     return (
       <div className="login">
-        <NavLink to='/discover' ><i className="iconfont ">&#xe642;</i></NavLink>
+        <NavLink to='/shopcar' ><i className="iconfont ">&#xe642;</i></NavLink>
         <div className="longin-header">
           <img className="header-img" src={require("./images/2.jpg")} alt="" width="130" height="130" />
         </div>
@@ -63,14 +63,10 @@ class Login extends Component {
         <div className="login_con">
 
           <div>
-
-
             < Basic history={this.props.history} ></Basic>
             <div className="yzm" onClick={this.isimg}>
               <img src={this.state.bigimg} alt="" />
             </div>
-
-
             <p className="con-resigter">没有账号？请<NavLink to='/register' >注册</NavLink></p>
           </div>
         </div>

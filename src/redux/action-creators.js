@@ -17,14 +17,11 @@ export const saveUser = (user) => ({ type: USER, data: user })
 export const savemessage = (user) => ({ type: MESSAGE, data: user })
 
 
-
-
 //
 export const reqauto = () => {
   return async (dispatch) => {
     const result = await req_auto()
     if (result.code === 0) {
-
       dispatch(savemessage(result.data))
     }
 

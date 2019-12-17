@@ -1,3 +1,4 @@
+
 import axios from "axios"
 import qs from "qs"
 import store from "../redux/store.js"
@@ -44,4 +45,5 @@ axios.interceptors.response.use((response) => {
   }
   return new Promise(() => { })
 })
+
 export default axios

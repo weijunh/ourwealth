@@ -1,3 +1,4 @@
+
 import axios from './ajax.js'
 const basic = "http://localhost:3000"
 export const reqLogin = ({ name, pwd, captcha }) => axios({
@@ -27,3 +28,5 @@ export const req_auto = () => axios({
   }
 })
 export const req_class_shop = () => axios("/classShop")
+export const reqHomepage = () => axios('/homepage')
+

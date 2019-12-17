@@ -34,8 +34,8 @@ class App extends Component {
 
   }
   render () {
-
     return (
+      // history={history} 暴露history模块达到js文件可以调到路由
       <Router history={history}>
         <Switch>
           {
@@ -54,32 +54,25 @@ class App extends Component {
               <NavLink to='/discover' activeClassName="selected" >
                 <Icon type="icon-tubiaozhizuomoban-"></Icon>
                 <span>发现</span>
-
               </NavLink>
               <NavLink to='/myself' activeClassName="selected">
                 <Icon type="icon-personal">
-
                 </Icon>
                 <span>自己</span>
-
-
               </NavLink>
               <NavLink to='/shopcar' activeClassName="selected" >
                 <Icon type="icon-gouwuche_">
-
                 </Icon>
-                <span> 购物车</span>
+                <span>购物车</span>
               </NavLink>
               <NavLink to='/finance' activeClassName="selected" >
                 <Icon type="icon-qianbao"></Icon>
-                <span>  余额</span>
+                <span>财富</span>
               </NavLink>
             </div>
           ) : ""
         }
-
       </Router>
-
     );
   }
 }

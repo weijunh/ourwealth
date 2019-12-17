@@ -13,14 +13,11 @@ class Register extends Component {
   render () {
     return (
       <div className="register">
-        <NavLink to='/discover' ><i className="iconfont ">&#xe642;</i></NavLink>
+        <NavLink to='/shopcar' ><i className="iconfont ">&#xe642;</i></NavLink>
         <p className="register_p">欢迎注册财富</p>
         <div className="register_con">
           <Basic></Basic>
           <p className="con-resigter">已有账号？请<NavLink to='/login' >登录</NavLink></p>
-
-
-
         </div>
       </div>
     )
